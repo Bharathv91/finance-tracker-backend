@@ -1,0 +1,59 @@
+﻿using FinanceTracker.Application.DTOs;
+using FinanceTracker.Application.Services;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
+
+namespace FinanceTracker.API.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ExpensesController : ControllerBase
+    {
+        private readonly ExpenseService _service;
+
+        public ExpensesController(ExpenseService service)
+        {
+            _service = service;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateExpenseDto dto)
+        {
+            var created = await _service.CreateAsync(dto);
+            return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
+        }
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            var item = await _service.GetAsync(id);
+            if (item == null) return NotFound();
+            return Ok(item);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> List([FromQuery] int page = 1, [FromQuery] int pageSize = 20)
+        {
+            var items = await _service.ListAsync(page, pageSize);
+            return Ok(items);
+        }
+
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update(Guid id, [FromBody] UpdateExpenseDto dto)
+        {
+            if (id != dto.Id) return BadRequest();
+            var ok = await _service.UpdateAsync(dto);
+            if (!ok) return NotFound();
+            return NoContent();
+        }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var ok = await _service.DeleteAsync(id);
+            if (!ok) return NotFound();
+            return NoContent();
+        }
+    }
+}

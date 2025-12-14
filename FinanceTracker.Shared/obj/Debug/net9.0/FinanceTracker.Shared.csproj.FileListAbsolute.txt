@@ -1,0 +1,12 @@
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\bin\Debug\net9.0\FinanceTracker.Shared.deps.json
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\bin\Debug\net9.0\FinanceTracker.Shared.dll
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\bin\Debug\net9.0\FinanceTracker.Shared.pdb
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.AssemblyInfoInputs.cache
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.AssemblyInfo.cs
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.csproj.CoreCompileInputs.cache
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.sourcelink.json
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.dll
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\refint\FinanceTracker.Shared.dll
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\FinanceTracker.Shared.pdb
+C:\Users\BHARATH\OneDrive\Documents\GitHub\finance-tracker-fullstack\Backend\FinanceTracker.Shared\obj\Debug\net9.0\ref\FinanceTracker.Shared.dll
